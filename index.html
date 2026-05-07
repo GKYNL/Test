@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#111827">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Balon Patlat">
+  <title>Balon Patlat</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="phone-frame" aria-label="Balon Patlat mobil oyunu">
+    <section class="hud" aria-live="polite">
+      <div>
+        <span class="label">Skor</span>
+        <strong id="score">0</strong>
+      </div>
+      <div>
+        <span class="label">Süre</span>
+        <strong><span id="time">30</span> sn</strong>
+      </div>
+      <div>
+        <span class="label">Rekor</span>
+        <strong id="best">0</strong>
+      </div>
+    </section>
+
+    <section id="game" class="game" aria-label="Oyun alanı">
+      <div id="target" class="target" role="button" aria-label="Balonu patlat" tabindex="0">🎈</div>
+      <div id="message" class="message">
+        <h1>Balon Patlat</h1>
+        <p>30 saniyede olabildiğince çok balona dokun. Bomba çıkarsa uzak dur!</p>
+        <button id="start" type="button">Başla</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "Balon Patlat",
+  "short_name": "Balon",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#111827",
+  "description": "iPhone'da Safari ile açılabilen basit dokunmatik balon patlatma oyunu.",
+  "icons": []
+}
